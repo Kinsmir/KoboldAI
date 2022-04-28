@@ -104,9 +104,9 @@ gensettingstf = [
 	"label": "Max Tokens",
 	"id": "settknmax", 
 	"min": 512,
-	"max": 2048,
+	"max": 16384,
 	"step": 8,
-	"default": 1024,
+	"default": 2048,
     "tooltip": "Max number of tokens of context to submit to the AI for sampling. Make sure this is higher than Amount to Generate. Higher values increase VRAM/RAM usage."
 	},
     {
